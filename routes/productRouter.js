@@ -1,7 +1,8 @@
 const router = require('express').Router()
 const productCtrl = require('../controllers/productCtrl')
-const auth = require('../middleware/auth')
+
 const authAdmin = require('../middleware/authAdmin')
+const auth = require('../middleware/auth')
 
 
 router.route('/products')
@@ -15,4 +16,3 @@ router.route('/products/:id')
 
 
 
-module.exports = router
