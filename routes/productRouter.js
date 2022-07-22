@@ -16,3 +16,4 @@ router.route('/products/:id')
 
 
 
+module.exports = router
